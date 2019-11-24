@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import Asset from './Asset';
+import Slider1 from './Slider1';
 import './style.css';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <p>
          Index
         </p>
+        <Slider1/>
       </div>
     );
   }
