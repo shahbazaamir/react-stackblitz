@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
     this.state = {color: "red"};
   }
   render() {
-    return <h2>I am a Class!</h2>;
+    return <h2>I am a Class! My name is {this.props.name}</h2>;
   }
 };
 
