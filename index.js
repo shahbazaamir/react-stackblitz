@@ -8,7 +8,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      name: 'React',assetName:"asset name"
     };
   }
 
@@ -16,9 +16,9 @@ class App extends Component {
     return (
       <div>
         <Hello name={this.state.name} />
-        <Asset/>
+        <Asset name={this.state.assetName} />
         <p>
-         Hello
+         Index
         </p>
       </div>
     );
